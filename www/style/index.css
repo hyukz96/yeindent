@@ -2,7 +2,7 @@ main .slider {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  height: 800px;
+  height: 100%;
 }
 main .slider .slides {
   display: flex;
@@ -12,20 +12,4 @@ main .slider .slides {
 main .slider .slides img {
   width: 100%;
   flex-shrink: 0;
-}
-main .dots {
-  text-align: center;
-  padding: 10px;
-}
-main .dots span {
-  height: 15px;
-  width: 15px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-main .active {
-  background-color: #717171;
 }/*# sourceMappingURL=index.css.map */
