@@ -1,0 +1,35 @@
+footer {
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #982B1C;
+    .content_wrap {
+        width: 55%;
+        margin: 0 auto;
+        .upper {
+            width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            h2 {
+                font-size: 28px;
+            }
+            .address_wrap {
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+        .lower {
+            width: 100%;
+            .telephone {
+                font-size: 28px;
+                border-bottom: 2px solid #333;
+            }
+            .copyright {
+                font-size: 20px;
+                padding: 5px 0;
+            }
+        }
+    }
+}
