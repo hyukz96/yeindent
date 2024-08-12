@@ -19,11 +19,11 @@ ul, ol, li {
     list-style: none;
 }
 
-ul::after, ol::after {
+/* ul::after, ol::after {
     content: "";
     display: block;
     clear: both;
-}
+} */
 li {
     float: left;
 }
