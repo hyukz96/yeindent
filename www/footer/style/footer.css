@@ -1,7 +1,8 @@
 footer {
   padding: 30px;
   box-sizing: border-box;
-  background-color: #982B1C;
+  background-color: #F2E8C6;
+  border-top: 2px solid #333;
 }
 footer .content_wrap {
   width: 55%;
@@ -27,7 +28,7 @@ footer .content_wrap .lower {
 }
 footer .content_wrap .lower .telephone {
   font-size: 28px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #000;
 }
 footer .content_wrap .lower .copyright {
   font-size: 20px;

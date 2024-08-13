@@ -10,11 +10,27 @@ main {
             display: flex;
             transition: transform 0.5s ease-in-out;
             width: 100vw;
+            height: 100vh;
             
             img {
                 width: 100%;
                 flex-shrink: 0;
             }
+        }
+    }
+}
+
+section {
+    width: 100%;
+    background-color: #F2E8C6;
+    article {
+        width: 100%;
+        padding: 0 40px;
+        box-sizing: border-box;
+        img {
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
         }
     }
 }

@@ -1,4 +1,14 @@
+window.addEventListener('scroll', function(){
+    const header = document.querySelector("header");
+    if (window.scrollY > 50) {
+        header.style.backgroundColor = '#00000066';
+    } else {
+        header.style.backgroundColor = '#FFFFFF66';
+    }
+});
+
 document.addEventListener("DOMContentLoaded", function() {
+    //main 슬라이드 관련
     let slideIndex = 0;
     const slides = document.querySelector('.slides');
     const totalSlides = document.querySelectorAll('.slides img').length; // 슬라이드 이미지의 개수
